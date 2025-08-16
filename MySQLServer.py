@@ -1,4 +1,4 @@
-mport mysql.connector
+import mysql.connector
 
 def create_database():
     try:
@@ -22,3 +22,4 @@ def create_database():
 
 
 if __name__ ==
+
