@@ -1,4 +1,4 @@
-import mysql.connector
+mport mysql.connector
 
 def create_database():
     try:
@@ -19,5 +19,6 @@ def create_database():
             cursor.close()
         if 'connection' in locals() and connection.is_connected():
             connection.close()
+
 
 if __name__ ==
